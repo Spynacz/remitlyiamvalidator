@@ -1,0 +1,14 @@
+{
+  "PolicyName": "root",
+  "PolicyDocument": {
+    "Version": "this version doesn't exist",
+    "Statement": [
+      {
+        "Sid": "IamListAccess",
+        "Effect": "Allow",
+        "Action": ["iam:ListRoles", "iam:ListUsers"],
+        "Resource": "some other resource"
+      }
+    ]
+  }
+}
