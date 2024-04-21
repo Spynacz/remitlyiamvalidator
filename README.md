@@ -47,6 +47,10 @@ go test
 
 ### Use inside Go project
 To use this package inside another Go project
+```bash
+go get github.com/spynacz/remitlyiamvalidator/iamvalid
+```
+
 ```go
 import "github.com/spynacz/remitlyiamvalidator/iamvalid"
 
